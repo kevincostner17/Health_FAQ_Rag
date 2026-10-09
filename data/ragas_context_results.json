@@ -1,0 +1,167 @@
+{
+  "summary": {
+    "judge_model": "openai/gpt-oss-20b",
+    "sample_size": 15,
+    "scored": 15,
+    "avg_faithfulness": 0.914,
+    "avg_relevance": 0.797,
+    "avg_context_precision": 0.805,
+    "avg_context_recall": 0.717,
+    "sensitivity": 1.0,
+    "specificity": 0.956,
+    "sensitivity_counts": "5/5",
+    "specificity_counts": "43/45"
+  },
+  "results": [
+    {
+      "question": "What causes Adult Central Nervous System Tumors ?",
+      "qtype": "causes",
+      "n_contexts": 6,
+      "faithfulness": 0.833,
+      "relevance": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "error": null
+    },
+    {
+      "question": "What causes Childhood Extracranial Germ Cell Tumors ?",
+      "qtype": "causes",
+      "n_contexts": 6,
+      "faithfulness": 0.75,
+      "relevance": 0.988,
+      "context_precision": 1.0,
+      "context_recall": 0.0,
+      "error": null
+    },
+    {
+      "question": "What causes Childhood Astrocytomas ?",
+      "qtype": "causes",
+      "n_contexts": 6,
+      "faithfulness": 1.0,
+      "relevance": 0.0,
+      "context_precision": 0.5,
+      "context_recall": 1.0,
+      "error": null
+    },
+    {
+      "question": "How to diagnose Childhood Liver Cancer ?",
+      "qtype": "exams and tests",
+      "n_contexts": 6,
+      "faithfulness": 1.0,
+      "relevance": 0.951,
+      "context_precision": 0.692,
+      "context_recall": 0.643,
+      "error": null
+    },
+    {
+      "question": "How to diagnose Childhood Ependymoma ?",
+      "qtype": "exams and tests",
+      "n_contexts": 6,
+      "faithfulness": 0.857,
+      "relevance": 0.941,
+      "context_precision": 0.478,
+      "context_recall": 0.455,
+      "error": null
+    },
+    {
+      "question": "How to diagnose Adult Non-Hodgkin Lymphoma ?",
+      "qtype": "exams and tests",
+      "n_contexts": 6,
+      "faithfulness": 0.929,
+      "relevance": 0.926,
+      "context_precision": 0.833,
+      "context_recall": 0.5,
+      "error": null
+    },
+    {
+      "question": "What are the genetic changes related to Chronic Myelogenous Leukemia ?",
+      "qtype": "genetic changes",
+      "n_contexts": 6,
+      "faithfulness": 0.857,
+      "relevance": 0.963,
+      "context_precision": 1.0,
+      "context_recall": 1.0,
+      "error": null
+    },
+    {
+      "question": "What is (are) Skin Cancer ?",
+      "qtype": "information",
+      "n_contexts": 6,
+      "faithfulness": 1.0,
+      "relevance": 0.904,
+      "context_precision": 1.0,
+      "context_recall": 0.605,
+      "error": null
+    },
+    {
+      "question": "What is (are) Non-Small Cell Lung Cancer ?",
+      "qtype": "information",
+      "n_contexts": 6,
+      "faithfulness": 0.571,
+      "relevance": 0.883,
+      "context_precision": 0.95,
+      "context_recall": 0.862,
+      "error": null
+    },
+    {
+      "question": "What is (are) Laryngeal Cancer ?",
+      "qtype": "information",
+      "n_contexts": 6,
+      "faithfulness": 1.0,
+      "relevance": 0.958,
+      "context_precision": 0.917,
+      "context_recall": 1.0,
+      "error": null
+    },
+    {
+      "question": "Is Neuroblastoma inherited ?",
+      "qtype": "inheritance",
+      "n_contexts": 6,
+      "faithfulness": 1.0,
+      "relevance": 0.956,
+      "context_precision": 1.0,
+      "context_recall": 1.0,
+      "error": null
+    },
+    {
+      "question": "Is Male Breast Cancer inherited ?",
+      "qtype": "inheritance",
+      "n_contexts": 6,
+      "faithfulness": 1.0,
+      "relevance": 0.981,
+      "context_precision": 1.0,
+      "context_recall": 1.0,
+      "error": null
+    },
+    {
+      "question": "Is Retinoblastoma inherited ?",
+      "qtype": "inheritance",
+      "n_contexts": 6,
+      "faithfulness": 1.0,
+      "relevance": 0.792,
+      "context_precision": 1.0,
+      "context_recall": 1.0,
+      "error": null
+    },
+    {
+      "question": "What is the outlook for Adult Non-Hodgkin Lymphoma ?",
+      "qtype": "outlook",
+      "n_contexts": 6,
+      "faithfulness": 1.0,
+      "relevance": 0.849,
+      "context_precision": 0.7,
+      "context_recall": 0.688,
+      "error": null
+    },
+    {
+      "question": "What is the outlook for Adult Primary Liver Cancer ?",
+      "qtype": "outlook",
+      "n_contexts": 6,
+      "faithfulness": 0.917,
+      "relevance": 0.866,
+      "context_precision": 1.0,
+      "context_recall": 1.0,
+      "error": null
+    }
+  ]
+}

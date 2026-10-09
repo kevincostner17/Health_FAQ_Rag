@@ -1,0 +1,707 @@
+{
+  "known": [
+    {
+      "question": "What causes Childhood Ependymoma ?",
+      "refused": true,
+      "rouge1": null,
+      "bertscore_f1": null,
+      "answer": "I\u2019m sorry, but the information you provided does not include any details about what causes childhood ependymoma. To understand the possible causes or risk factors for this type of cancer, you should discuss the question with your child\u2019s doctor or a qualified medical professional.",
+      "focus": "Childhood Ependymoma",
+      "ragas": null
+    },
+    {
+      "question": "What causes Adult Central Nervous System Tumors ?",
+      "refused": false,
+      "rouge1": 0.1777777777777778,
+      "bertscore_f1": 0.8729642033576965,
+      "answer": "I\u2019m sorry, but the provided information does not explain what causes adult central nervous system tumors. It describes where these tumors can occur, whether they are benign or malignant, and which other cancers may spread to the brain or leptomeninges, but it does not identify specific causes or risk factors for primary CNS tumors in adults. \n\nFor accurate information about the causes of adult CNS tumors, please consult a medical professional or a reliable medical source.",
+      "focus": "Adult Central Nervous System Tumors",
+      "ragas": {
+        "faithfulness": 0.833,
+        "relevance": 0.0,
+        "hallucination": 0.167,
+        "method": "ragas"
+      }
+    },
+    {
+      "question": "What causes Childhood Extracranial Germ Cell Tumors ?",
+      "refused": false,
+      "rouge1": 0.15384615384615383,
+      "bertscore_f1": 0.880879819393158,
+      "answer": "Childhood extracranial germ\u2011cell tumors arise when germ cells that normally develop into sperm or eggs migrate abnormally during fetal development.\u202fIf these cells travel to locations where they do not belong, they can later grow into a germ\u2011cell tumor, either before birth or after birth\u3010Source: Childhood Extracranial Germ Cell Tumors | CancerGov\u3011.",
+      "focus": "Childhood Extracranial Germ Cell Tumors",
+      "ragas": {
+        "faithfulness": 0.75,
+        "relevance": 0.988,
+        "hallucination": 0.25,
+        "method": "ragas"
+      }
+    },
+    {
+      "question": "What causes Childhood Astrocytomas ?",
+      "refused": false,
+      "rouge1": 0.5263157894736842,
+      "bertscore_f1": 0.9140608310699463,
+      "answer": "The cause of most childhood astrocytomas (like most childhood brain tumors) is not known.\u202f\u3010Source: Childhood Astrocytomas | CancerGov \u2013 \u201cThe cause of most childhood brain tumors is not known.\u201d\u3011",
+      "focus": "Childhood Astrocytomas",
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevance": 0.0,
+        "hallucination": 0.0,
+        "method": "ragas"
+      }
+    },
+    {
+      "question": "How to diagnose Childhood Liver Cancer ?",
+      "refused": false,
+      "rouge1": 0.369047619047619,
+      "bertscore_f1": 0.8301305770874023,
+      "answer": "Childhood liver cancer is diagnosed with a combination of clinical evaluation, imaging studies, blood tests, and tissue analysis\u202f\u2014\u202fall of which are used to find the tumor, determine its type, and see whether it has spread.\n\n**1. Clinical evaluation**  \n* **Physical exam and medical history** \u2013 The doctor checks the child\u2019s overall health, looks for lumps or other abnormal findings, and reviews past illnesses and treatments\u3010Childhood Liver Cancer | CancerGov\u3011.  \n\n**2. Imaging studies**  \n* **Ultrasound of the abdomen** \u2013 Uses high\u2011energy sound waves to create a sonogram of the liver and its large blood vessels\u3010Childhood Liver Cancer | CancerGov\u3011.  \n* **MRI with gadolinium (also called NMRI)** \u2013 A magnetic\u2011resonance scan with a contrast agent that makes cancer cells appear brighter, providing detailed pictures of the liver\u3010Childhood Liver Cancer | CancerGov\u3011.  \n\n**3. Blood\u2011based tests**  \n* **Blood chemistry studies** \u2013 Measure substances such as bilirubin or lactate dehydrogenase (LDH); abnormal levels can signal disease\u3010Childhood Liver Cancer | CancerGov\u3011.  \n* **Epstein\u2011Barr virus (EBV) test** \u2013 Looks for EBV antibodies and DNA markers in the blood\u3010Childhood Liver Cancer | CancerGov\u3011.  \n* **Hepatitis assay** \u2013 Checks the blood for components of hepatitis viruses\u3010Childhood Liver Cancer | CancerGov\u3011.  \n\n**4. Tissue (biopsy) analysis**  \n* **Immunohistochemistry** \u2013 After a tissue sample is removed, antibodies linked to a dye or radioactive label are used to detect specific antigens, identify gene mutations, and distinguish the cancer type\u3010Childhood Liver Cancer | CancerGov\u3011.  \n\nTogether, these examinations\u2014physical exam/history, imaging (ultrasound, MRI), blood chemistry/viral tests, and immunohistochemical analysis of biopsy tissue\u2014are used to detect, diagnose, and stage childhood liver cancer.",
+      "focus": "Childhood Liver Cancer",
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevance": 0.951,
+        "hallucination": 0.0,
+        "method": "ragas"
+      }
+    },
+    {
+      "question": "How to diagnose Childhood Ependymoma ?",
+      "refused": false,
+      "rouge1": 0.37003058103975534,
+      "bertscore_f1": 0.8262949585914612,
+      "answer": "Diagnosing childhood ependymoma is done with a combination of clinical evaluation and specialized tests:\n\n1. **Physical exam and medical history** \u2013 The doctor first reviews the child\u2019s symptoms, health habits and past illnesses and performs a general physical examination to look for signs of disease\u3010Source: Childhood Ependymoma | CancerGov\u3011.  \n\n2. **Imaging of the brain and spinal cord** \u2013 MRI (magnetic\u2011resonance imaging) is the primary test used to locate the tumor and to see whether any tumor remains after surgery. MRIs of the brain and spinal cord are also used later to monitor for recurrence\u3010Source: Childhood Ependymoma | CancerGov\u3011.  \n\n3. **Tissue analysis (if tumor tissue is removed)** \u2013 After surgical removal, the tissue can be examined with **immunohistochemistry**, a laboratory test that uses antibodies to detect specific antigens and helps distinguish ependymoma from other brain tumors such as brain\u2011stem glioma\u3010Source: Childhood Ependymoma | CancerGov\u3011.  \n\n4. **Follow\u2011up testing** \u2013 After the initial diagnosis and treatment, MRIs are repeated (every 3\u202fmonths for the first 1\u20132\u202fyears, then every 6\u202fmonths for the next 3\u202fyears) to check for changes or recurrence\u3010Source: Childhood Ependymoma | CancerGov\u3011.\n\nTogether, these steps\u2014clinical assessment, MRI imaging, and, when tissue is available, immunohistochemical analysis\u2014constitute the diagnostic approach for childhood ependymoma.",
+      "focus": "Childhood Ependymoma",
+      "ragas": {
+        "faithfulness": 0.857,
+        "relevance": 0.941,
+        "hallucination": 0.143,
+        "method": "ragas"
+      }
+    },
+    {
+      "question": "How to diagnose Childhood Hodgkin Lymphoma ?",
+      "refused": false,
+      "rouge1": 0.28536285362853625,
+      "bertscore_f1": 0.8365094661712646,
+      "answer": "**Diagnosis of childhood Hodgkin lymphoma is made by a combination of clinical evaluation and imaging studies.**  \n\n1. **Physical exam and medical history** \u2013 The physician examines the child\u2019s body for signs of disease (e.g., enlarged lymph nodes or other lumps) and takes a detailed history of health habits, past illnesses, and prior treatments. This is the first step in detecting Hodgkin lymphoma\u3010Childhood Hodgkin Lymphoma | CancerGov\u3011.  \n\n2. **Imaging for staging and confirmation** \u2013 After the initial exam, imaging tests are used to locate the disease and determine its extent (stage). A **CT scan (computed\u2011tomography)** of the neck, chest, abdomen, or pelvis is commonly performed; a contrast dye may be injected or swallowed to improve visibility of organs and tissues\u3010Childhood Hodgkin Lymphoma | CancerGov\u3011.  \n\n3. **Follow\u2011up testing** \u2013 Tests that were initially used to diagnose or stage the cancer may be repeated after treatment begins to see how well therapy is working and to guide further treatment decisions\u3010Childhood Hodgkin Lymphoma | CancerGov\u3011.  \n\nThese steps\u2014physical examination with history, followed by imaging such as a CT scan, and subsequent repeat testing as needed\u2014constitute the diagnostic",
+      "focus": "Childhood Hodgkin Lymphoma",
+      "ragas": {
+        "faithfulness": 0.635,
+        "relevance": 0.62,
+        "hallucination": 0.365,
+        "method": "heuristic",
+        "error": "LLMDidNotFinishException: The LLM generation was not completed. Please increase the max_tokens and try again."
+      }
+    },
+    {
+      "question": "How to diagnose Adult Non-Hodgkin Lymphoma ?",
+      "refused": false,
+      "rouge1": 0.3607305936073059,
+      "bertscore_f1": 0.8475732803344727,
+      "answer": "Adult non\u2011Hodgkin lymphoma is diagnosed through a combination of clinical evaluation and laboratory/pathology tests:\n\n1. **Physical exam and medical history** \u2013 The physician examines the body for abnormal findings (e.g., lumps) and reviews the patient\u2019s health habits, past illnesses and prior treatments.\u202f\u3010Adult Non\u2011Hodgkin Lymphoma | CancerGov\u3011\n\n2. **Biopsy of lymph\u2011node or other tissue** \u2013 A sample of tissue is removed and examined under a microscope. Several biopsy methods may be used, including:  \n   * Excisional biopsy (removal of an entire lymph node)  \n   * Incisional biopsy (removal of part of a lymph node)  \n   * Core biopsy (wide\u2011needle removal of part of a node)  \n   * Fine\u2011needle aspiration (thin\u2011needle removal of tissue or fluid)  \n   * Laparoscopy (surgical look\u2011inside the abdomen)\u202f\u3010Adult Non\u2011Hodgkin Lymphoma | CancerGov\u3011\n\n3. **Pathology testing of the tissue** \u2013 The obtained tissue is evaluated for cancer cells. If cancer is present, further studies are performed, such as **immunohistochemistry**, which uses antibodies linked to a dye or radioactive label to detect specific antigens and help distinguish the lymphoma subtype.\u202f\u3010Adult Non\u2011Hodgkin Lymphoma | CancerGov\u3011\n\n4. **Additional tests as needed** \u2013 Depending on the patient\u2019s signs, symptoms, and where the disease appears, other tests and procedures may be ordered to further assess the extent of disease.\u202f\u3010Adult Non\u2011Hodgkin Lymphoma | CancerGov\u3011\n\nThese steps together allow clinicians to detect, confirm, and classify adult non\u2011Hodgkin lymphoma. If you need personalized guidance, please consult a medical professional.",
+      "focus": "Adult Non-Hodgkin Lymphoma",
+      "ragas": {
+        "faithfulness": 0.929,
+        "relevance": 0.926,
+        "hallucination": 0.071,
+        "method": "ragas"
+      }
+    },
+    {
+      "question": "What are the genetic changes related to Chronic Myelogenous Leukemia ?",
+      "refused": false,
+      "rouge1": 0.5058823529411766,
+      "bertscore_f1": 0.8633767366409302,
+      "answer": "The primary genetic change seen in chronic myelogenous leukemia (CML) is the **Philadelphia chromosome**.\u202fIn CML a piece of DNA from one chromosome moves to another chromosome, creating this abnormal chromosome\u202f\u2013\u202fa gene mutation that produces an enzyme called **tyrosine kinase**, which drives the over\u2011production of white\u2011blood\u2011cell precursors\u202f\u3010Source: Chronic Myelogenous Leukemia | CancerGov\u3011.  \n\nThus, the key genetic alteration associated with CML is the Philadelphia chromosome translocation (the BCR\u2011ABL fusion that generates excess tyrosine\u2011kinase activity).",
+      "focus": "Chronic Myelogenous Leukemia",
+      "ragas": {
+        "faithfulness": 0.857,
+        "relevance": 0.963,
+        "hallucination": 0.143,
+        "method": "ragas"
+      }
+    },
+    {
+      "question": "What is (are) Skin Cancer ?",
+      "refused": false,
+      "rouge1": 0.21543985637342908,
+      "bertscore_f1": 0.8126586675643921,
+      "answer": "Skin cancer is a disease in which malignant (cancer) cells develop in the tissues of the skin\u202f\u2014\u202fmost often beginning in the epidermis, the outer layer of the skin\u3010Skin Cancer | CancerGov\u3011. It is the most common cancer in the United States and includes several types (e.g., squamous cell carcinoma, basal cell carcinoma, melanoma) that arise from the different cells that make up the epidermis\u3010Skin Cancer | CancerGov\u3011.",
+      "focus": "Skin Cancer",
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevance": 0.904,
+        "hallucination": 0.0,
+        "method": "ragas"
+      }
+    },
+    {
+      "question": "What is (are) Non-Small Cell Lung Cancer ?",
+      "refused": false,
+      "rouge1": 0.2803738317757009,
+      "bertscore_f1": 0.8215048313140869,
+      "answer": "Non\u2011small cell lung cancer (NSCLC) is a type of lung cancer in which **malignant (cancer) cells develop in the tissues of the lung**\u3010Non\u2011Small Cell Lung Cancer | CancerGov\u3011. It encompasses several histologic subtypes, the most common being adenocarcinoma (cancer that begins in the cells lining the alveoli), as well as other types such as squamous\u2011cell carcinoma and large\u2011cell carcinoma, with less common forms including pleomorphic, carcinoid tumor, salivary\u2011gland carcinoma, and unclassified carcinoma\u3010Non\u2011Small Cell Lung Cancer | CancerGov\u3011.  \n\nIn short, NSCLC is a disease characterized by the growth of cancerous cells within the lung\u2019s tissue, representing the majority of lung\u2011cancer cases.",
+      "focus": "Non-Small Cell Lung Cancer",
+      "ragas": {
+        "faithfulness": 0.571,
+        "relevance": 0.883,
+        "hallucination": 0.429,
+        "method": "ragas"
+      }
+    },
+    {
+      "question": "What is (are) Laryngeal Cancer ?",
+      "refused": false,
+      "rouge1": 0.3082706766917293,
+      "bertscore_f1": 0.8225553035736084,
+      "answer": "Laryngeal cancer is a disease in which malignant (cancer) cells develop in the tissues of the larynx\u202f\u2014\u202fthe voice box that sits in the throat between the base of the tongue and the trachea and contains the vocal cords that vibrate to produce sound\u3010Laryngeal Cancer | CancerGov\u3011.",
+      "focus": "Laryngeal Cancer",
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevance": 0.958,
+        "hallucination": 0.0,
+        "method": "ragas"
+      }
+    },
+    {
+      "question": "What is (are) Childhood Vascular Tumors ?",
+      "refused": false,
+      "rouge1": 0.08208366219415943,
+      "bertscore_f1": 0.7929328680038452,
+      "answer": "Childhood vascular tumors are growths that arise from blood\u2011vessel cells in infants and children.  They include a spectrum of lesions that can be benign (such as infantile hemangiomas, often called \u201cstrawberry marks\u201d), intermediate\u2011grade tumors that tend to grow locally (e.g., kaposiform hemangioendothelioma, tufted angioma, retiform hemangioendothelioma, papillary intralymphatic angioendothelioma/Dabska tumor), and, rarely, malignant forms such as angiosarcoma of soft tissue\u3010Source: Childhood Vascular Tumors | CancerGov\u3011.  \n\nThese tumors may appear on or under the skin of the arms, legs, trunk, or other body sites, and sometimes arise inside capillaries or other tissues without a known cause.  While many are solitary, multiple lesions can occur in the same area or spread to other areas\u3010Source: Childhood Vascular Tumors | CancerGov\u3011.  \n\nBecause they involve blood\u2011vessel tissue, some can affect circulation (e.g., a liver shunt that sends blood directly to the heart, leading to heart failure and clotting problems)\u3010Source: Childhood Vascular Tumors | CancerGov\u3011.  Treatment options vary by tumor type and may include surgery, radiation, chemotherapy, immunotherapy, or targeted therapy, with follow\u2011up monitoring for recurrence\u3010Source: Childhood Vascular Tumors | CancerGov\u3011.",
+      "focus": "Childhood Vascular Tumors",
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevance": 0.92,
+        "hallucination": 0.0,
+        "method": "ragas"
+      }
+    },
+    {
+      "question": "Is Neuroblastoma inherited ?",
+      "refused": false,
+      "rouge1": 0.4545454545454545,
+      "bertscore_f1": 0.8792374134063721,
+      "answer": "Yes.\u202fIn some cases neuroblastoma is linked to a gene mutation that can be passed from a parent to a child, so the increased risk can be inherited\u202f[Neuroblastoma\u202f|\u202fCancerGov].",
+      "focus": "Neuroblastoma",
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevance": 0.956,
+        "hallucination": 0.0,
+        "method": "ragas"
+      }
+    },
+    {
+      "question": "Is Male Breast Cancer inherited ?",
+      "refused": false,
+      "rouge1": 0.5086705202312138,
+      "bertscore_f1": 0.8532573580741882,
+      "answer": "Yes.\u202fMale breast cancer can be inherited.\u202fThe disease is \u201csometimes caused by inherited gene mutations (changes)\u201d and hereditary breast cancer accounts for about\u202f5\u202fto\u202f10\u202fpercent of all breast cancers; men who carry a breast\u2011cancer\u2011related gene mutation (such as BRCA1 or BRCA2) have an increased risk of developing the disease\u3010Male Breast Cancer | CancerGov\u3011.",
+      "focus": "Male Breast Cancer",
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevance": 0.981,
+        "hallucination": 0.0,
+        "method": "ragas"
+      }
+    },
+    {
+      "question": "Is Retinoblastoma inherited ?",
+      "refused": false,
+      "rouge1": 0.2573913043478261,
+      "bertscore_f1": 0.8444513082504272,
+      "answer": "Retinoblastoma can be inherited, but only in its **heritable form**. A child is considered to have the heritable type when, for example, there is a family history of the disease, a specific RB1\u2011gene mutation is present (which can be passed from a parent or arise in the egg/sperm), or there are multiple tumors or bilateral involvement\u3010Retinoblastoma | CancerGov\u3011.  \n\nMost retinoblastoma cases are **nonheritable**, meaning they are not passed down from a parent\u3010Retinoblastoma | CancerGov\u3011.  \n\nSo, retinoblastoma is sometimes inherited (heritable form) and often not (nonheritable form). If you need personalized risk information, you should discuss genetic testing and counseling with a medical professional.",
+      "focus": "Retinoblastoma",
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevance": 0.792,
+        "hallucination": 0.0,
+        "method": "ragas"
+      }
+    },
+    {
+      "question": "Is Breast Cancer inherited ?",
+      "refused": false,
+      "rouge1": 0.4253393665158371,
+      "bertscore_f1": 0.8555229306221008,
+      "answer": "Yes.\u202fA portion of breast cancer is due to inherited gene mutations.  The information states that \u201cbreast cancer is sometimes caused by inherited gene mutations\u201d and that \u201chereditary breast cancer makes up about\u202f5\u202f% to\u202f10\u202f% of all breast cancer\u201d\u3010Breast Cancer | CancerGov\u3011.  Thus, while most breast cancers are not inherited, a minority are linked to genetic changes passed from parents.",
+      "focus": "Breast Cancer",
+      "ragas": {
+        "faithfulness": 0.833,
+        "relevance": 0.791,
+        "hallucination": 0.167,
+        "method": "ragas"
+      }
+    },
+    {
+      "question": "What is the outlook for Adult Non-Hodgkin Lymphoma ?",
+      "refused": false,
+      "rouge1": 0.48297213622291024,
+      "bertscore_f1": 0.8615292310714722,
+      "answer": "The outlook (prognosis) for an adult with non\u2011Hodgkin lymphoma is not a single figure\u2014it varies according to several key factors.\u202fAccording to Cancer.gov, the chance of recovery depends on:\n\n* **The stage of the cancer** \u2013 early\u2011stage disease generally has a better prognosis than advanced disease.  \n* **The specific type of non\u2011Hodgkin lymphoma** \u2013 different sub\u2011types behave differently.  \n* **The level of lactate dehydrogenase (LDH) in the blood** \u2013 higher LDH can indicate more aggressive disease.  \n* **Whether certain genetic changes are present** \u2013 some gene alterations are linked to poorer outcomes.  \n* **The patient\u2019s age and overall health** \u2013 younger, healthier patients tend to tolerate treatment better.  \n* **Whether the lymphoma is newly diagnosed or has recurred** \u2013 a recurrence can make the outlook less favorable.  \n\nThese factors together determine the individual\u2019s prognosis and guide treatment choices\u3010Adult Non\u2011Hodgkin Lymphoma | CancerGov\u3011.  \n\nBecause the prognosis is highly individualized, specific survival rates cannot be given from the provided information. For a personalized outlook, it is best to discuss the individual\u2019s disease characteristics with a hematology/oncology specialist.",
+      "focus": "Adult Non-Hodgkin Lymphoma",
+      "ragas": {
+        "faithfulness": 1.0,
+        "relevance": 0.849,
+        "hallucination": 0.0,
+        "method": "ragas"
+      }
+    },
+    {
+      "question": "What is the outlook for Adult Primary Liver Cancer ?",
+      "refused": false,
+      "rouge1": 0.4744186046511628,
+      "bertscore_f1": 0.884787380695343,
+      "answer": "The outlook (prognosis) for adult primary liver cancer is not a single figure\u2014it varies according to several key factors.\u202fAccording to the Cancer.gov information, the chance of recovery depends on:\n\n* **The stage of the cancer** \u2013 how large the tumor is, whether it involves part or all of the liver, and whether it has spread elsewhere.  \n* **How well the liver is functioning** \u2013 the organ\u2019s ability to perform its normal duties.  \n* **The patient\u2019s overall health**, especially the presence or absence of cirrhosis or other liver\u2011related conditions.  \n\nThese factors together determine both the prognosis and the treatment options that may be appropriate\u3010Adult Primary Liver Cancer | CancerGov\u3011.  \n\nBecause the source does not provide specific survival rates or detailed outcome statistics, a precise numerical outlook cannot be given here. For a personalized assessment of prognosis, you should discuss your individual situation with a qualified medical professional.",
+      "focus": "Adult Primary Liver Cancer",
+      "ragas": {
+        "faithfulness": 0.917,
+        "relevance": 0.866,
+        "hallucination": 0.083,
+        "method": "ragas"
+      }
+    },
+    {
+      "question": "What is the outlook for Childhood Liver Cancer ?",
+      "refused": false,
+      "rouge1": 0.4422110552763819,
+      "bertscore_f1": 0.8290993571281433,
+      "answer": "The outlook (prognosis) for childhood liver cancer is not a single figure\u2014it varies widely and depends on several tumor\u2011 and patient\u2011specific factors.\n\n**Key factors that influence the chance of recovery**\n\n* **Tumor stage** \u2013 the PRETEXT or POSTTEXT group (how much of the liver is involved)\u202f\u3010Source: Childhood Liver Cancer | CancerGov\u3011  \n* **Spread of disease** \u2013 whether the cancer has metastasized to the lungs, large blood vessels, or other sites\u202f\u3010Source: Childhood Liver Cancer | CancerGov\u3011  \n* **Surgical resectability** \u2013 whether the tumor can be removed completely by surgery (cure is more likely when the tumor is small and fully resectable, especially for hepatoblastoma)\u202f\u3010Source: Childhood Liver Cancer | CancerGov\u3011  \n* **Response to chemotherapy** \u2013 how well the cancer shrinks or disappears with drug treatment\u202f\u3010Source: Childhood Liver Cancer | CancerGov\u3011  \n* **Tumor histology** \u2013 how the cancer cells look under a microscope (e.g., pure fetal, small\u2011cell undifferentiated, non\u2011pure fetal)\u202f\u3010Source: Childhood Liver Cancer | CancerGov\u3011  \n* **AFP blood\u2011level trends** \u2013 whether alpha\u2011fetoprotein levels fall after treatment\u202f\u3010Source: Childhood Liver Cancer | CancerGov\u3011",
+      "focus": "Childhood Liver Cancer",
+      "ragas": {
+        "faithfulness": 0.61,
+        "relevance": 0.6,
+        "hallucination": 0.39,
+        "method": "heuristic",
+        "error": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m3s1820fe41bsr7yamjz72km` service tier `on_demand` on tokens per day (TPD): Limit 2000"
+      }
+    },
+    {
+      "question": "What is the outlook for Male Breast Cancer ?",
+      "refused": false,
+      "rouge1": 0.6646525679758308,
+      "bertscore_f1": 0.8589824438095093,
+      "answer": "The outlook (prognosis) for men with breast cancer depends mainly on how advanced the disease is when it is found and on the tumor\u2019s biological characteristics.  \n\n* **Stage at diagnosis** \u2013 When men and women are diagnosed at the same stage, their chances of survival are similar. However, men are often diagnosed later, and cancers found at a later stage are less likely to be cured\u3010Source: Male Breast Cancer | CancerGov\u3011.  \n\n* **Tumor type and receptor status** \u2013 The type of breast cancer, the levels of estrogen\u2011 and progesterone\u2011receptors (and, for breast cancer in general, HER2/neu), also influence prognosis and treatment choices\u3010Source: Male Breast Cancer | CancerGov\u3011\u3010Source: Breast Cancer | CancerGov\u3011.  \n\n* **Other factors** \u2013 Age, overall health, whether the cancer is present in the other breast, and other individual factors further affect the chance of recovery\u3010Source: Male Breast Cancer | CancerGov\u3011.  \n\nIn summary, the prognosis for male breast cancer is comparable to that for women when the stage at diagnosis is the same, but because men are frequently diagnosed at a more advanced stage, the overall outlook can be less favorable. For a personalized assessment, a medical professional should evaluate the specific stage and tumor characteristics.",
+      "focus": "Male Breast Cancer",
+      "ragas": {
+        "faithfulness": 0.65,
+        "relevance": 0.631,
+        "hallucination": 0.35,
+        "method": "heuristic",
+        "error": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m3s1820fe41bsr7yamjz72km` service tier `on_demand` on tokens per day (TPD): Limit 2000"
+      }
+    },
+    {
+      "question": "How to prevent Lung Cancer ?",
+      "refused": false,
+      "rouge1": 0.1708542713567839,
+      "bertscore_f1": 0.8100508451461792,
+      "answer": "Preventing lung cancer focuses on reducing known risk factors and adding protective habits:\n\n* **Avoid tobacco use** \u2013 Cigarette, cigar, and pipe smoking are the most important risk factor, accounting for about 9\u202fout of\u202f10 cases in men and 8\u202fout of\u202f10 cases in women\u3010Source: Lung Cancer | CancerGov\u3011.  \n* **Maintain a healthy weight and stay active** \u2013 Being overweight and not getting enough exercise are listed as risk factors, while regular exercise is a protective factor\u3010Source: Lung Cancer | CancerGov\u3011.  \n* **Eat a diet rich in fruits and vegetables** \u2013 Increasing intake of fruits, vegetables, and possibly certain vitamins, minerals, or food supplements may help lower risk\u3010Source: Lung Cancer | CancerGov\u3011.  \n* **Quit smoking** \u2013 Stopping tobacco use is a key protective action\u3010Source: Lung Cancer | CancerGov\u3011.  \n* **Discuss prevention with a health\u2011care professional** \u2013 Your doctor can advise personalized steps to lower your risk\u3010Source: Lung Cancer | CancerGov\u3011.  \n* **Consider participation in prevention clinical trials** \u2013 New ways to prevent lung cancer are being studied in trials that test actions (e.g., lifestyle changes, medicines, supplements) for their ability to reduce risk\u3010Source: Lung Cancer | CancerGov\u3011.\n\nIf you need personalized guidance or have specific health concerns, consult your doctor or another qualified health\u2011care professional.",
+      "focus": "Lung Cancer",
+      "ragas": {
+        "faithfulness": 0.675,
+        "relevance": 0.65,
+        "hallucination": 0.325,
+        "method": "heuristic",
+        "error": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m3s1820fe41bsr7yamjz72km` service tier `on_demand` on tokens per day (TPD): Limit 2000"
+      }
+    },
+    {
+      "question": "How to prevent Anal Cancer ?",
+      "refused": false,
+      "rouge1": 0.3447698744769874,
+      "bertscore_f1": 0.8363763689994812,
+      "answer": "**Ways to lower your risk of anal cancer (based on the provided information)**  \n\n1. **Avoid or reduce known risk factors**  \n   * **Stop smoking** \u2013 Cigarette smoking is linked to a higher risk of anal cancer, and current smokers have a greater risk than former or never\u2011smokers.\u202f[Anal Cancer\u202f|\u202fCancerGov]  \n   * **Maintain a healthy weight and stay active** \u2013 Being overweight and not getting enough exercise are listed as risk factors; increasing protective factors such as quitting smoking and exercising may help prevent some cancers.\u202f[Anal Cancer\u202f|\u202fCancerGov]  \n\n2. **Limit exposure to HPV**  \n   * **Practice safer sexual behaviors** \u2013 Having many sexual partners, sex between men, and a history of anal warts or other sexually transmitted infections increase the risk of anal HPV infection, which is the main cause of anal cancer. Reducing the number of partners and using protection can lower this risk.\u202f[Anal Cancer\u202f|\u202fCancerGov]  \n\n3. **Manage immune\u2011system health**  \n   * **Control HIV infection** \u2013 HIV weakens the immune system and raises the chance of persistent HPV infection and anal cancer. Effective HIV treatment and regular medical follow\u2011up can help.\u202f[Anal Cancer\u202f|\u202fCancerGov]  \n   * **Avoid unnecessary long\u2011term immunosuppression** \u2013 Chronic immunosuppression (e.g., after organ transplantation) raises anal\u2011cancer risk because it reduces the body\u2019s ability to fight HPV. Discuss any immunosuppressive medications with your doctor.\u202f[Anal Cancer\u202f|\u202fCancerGov]  \n   * **Address autoimmune conditions** \u2013 Disorders such as Crohn disease or psoriasis may increase risk; proper management with your health\u2011care team is advisable.\u202f[Anal Cancer\u202f|\u202fCancerGov]  \n\n4. **Seek medical guidance**  \n   * Talk to your doctor about personalized ways to lower your cancer risk, including screening and possible participation in clinical trials that are studying new prevention strategies.\u202f",
+      "focus": "Anal Cancer",
+      "ragas": {
+        "faithfulness": 0.644,
+        "relevance": 0.626,
+        "hallucination": 0.356,
+        "method": "heuristic",
+        "error": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m3s1820fe41bsr7yamjz72km` service tier `on_demand` on tokens per day (TPD): Limit 2000"
+      }
+    },
+    {
+      "question": "How to prevent Skin Cancer ?",
+      "refused": false,
+      "rouge1": 0.25956284153005466,
+      "bertscore_f1": 0.8137691617012024,
+      "answer": "**Ways to help prevent skin cancer (based on the provided Cancer.gov excerpts):**\n\n1. **Use sunscreen that blocks UV radiation** \u2013 Even though it has not been definitively proven to lower skin\u2011cancer rates, sunscreen can reduce the amount of UV that reaches the skin and may help prevent actinic keratoses, which can progress to squamous\u2011cell carcinoma\u3010Source: Skin Cancer | CancerGov\u3011.  \n\n2. **Limit time in the sun, especially when it is strongest** \u2013 Staying out of direct sunlight for long periods can reduce UV exposure\u3010Source: Skin Cancer | CancerGov\u3011.  \n\n3. **Wear protective clothing** \u2013 Long\u2011sleeve shirts, long pants, wide\u2011brimmed hats and sunglasses are recommended when outdoors\u3010Source: Skin Cancer | CancerGov\u3011.  \n\n4. **Avoid artificial UV sources** \u2013 Stay away from sunlamps and tanning beds, which emit UV radiation that increases risk\u3010Source: Skin Cancer | CancerGov\u3011.  \n\n5. **Address general cancer\u2011risk factors** \u2013 Reducing smoking, maintaining a healthy weight and getting regular exercise may help lower overall cancer risk, including skin cancer\u3010Source: Skin Cancer | CancerGov\u3011.  \n\n6. **Know that some supplements have not shown benefit** \u2013 Studies of beta\u2011carotene supplements have not demonstrated prevention of non\u2011melanoma skin cancer, so they are not recommended for this purpose\u3010Source: Skin Cancer | CancerGov\u3011.  \n\n*Note:* The evidence that sunscreen, staying out of the sun, or wearing protective clothing definitively reduces non\u2011melanoma skin\u2011cancer risk is limited, but these measures are widely suggested by skin\u2011cancer experts as reasonable precautions\u3010Source: Skin Cancer | CancerGov\u3011. If you have specific concerns or a personal/family history of skin cancer, consult a dermatologist or other medical professional for personalized advice.",
+      "focus": "Skin Cancer",
+      "ragas": {
+        "faithfulness": 0.623,
+        "relevance": 0.61,
+        "hallucination": 0.377,
+        "method": "heuristic",
+        "error": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m3s1820fe41bsr7yamjz72km` service tier `on_demand` on tokens per day (TPD): Limit 2000"
+      }
+    },
+    {
+      "question": "How to prevent Ovarian Epithelial, Fallopian Tube, and Primary Peritoneal Cancer ?",
+      "refused": false,
+      "rouge1": 0.3803680981595092,
+      "bertscore_f1": 0.8429809212684631,
+      "answer": "**Ways to help prevent ovarian epithelial, fallopian\u2011tube, and primary\u2011peritoneal cancer (based on the provided Cancer.gov information)**  \n\n1. **Avoid known risk factors** \u2013\u202fSmoking, being overweight, and not getting enough physical activity are listed as risk factors. Reducing or eliminating these behaviors can lower risk.\u3010Ovarian, Fallopian Tube, and Primary Peritoneal Cancer | CancerGov\u3011\n\n2. **Increase protective factors** \u2013\u202f-\u202fQuit smoking.  \n   -\u202fExercise regularly.  \n   -\u202fEat a diet rich in fruits and vegetables.  \n   -\u202fSome studies are also looking at certain medicines, vitamins, minerals, or food supplements as possible protective agents, though specific products are not detailed in the excerpt.\u3010Ovarian, Fallopian Tube, and Primary Peritoneal Cancer | CancerGov\u3011\n\n3. **Risk\u2011reducing surgery for high\u2011risk women** \u2013\u202fWomen who have a markedly increased risk (for example, due to family history or genetic mutations) may choose a risk\u2011reducing oophorectomy (removal of healthy ovaries). In high\u2011risk women this surgery has been shown to greatly decrease the chance of developing ovarian cancer.\u3010Ovarian Epithelial, Fallopian Tube, and Primary Peritoneal Cancer | CancerGov\u3011\n\n4. **Participate in or follow results from prevention clinical trials** \u2013\u202fNew prevention strategies\u2014including lifestyle interventions, dietary supplements, and other agents\u2014are being tested in clinical trials across the country. Information about these trials is available through the NCI Clinical Trials website.\u3010Ovarian, Fallopian Tube, and Primary Peritoneal Cancer | CancerGov\u3011\n\n**Summary**  \nTo lower the chance of ovarian epithelial, fallopian\u2011tube, or primary\u2011peritoneal cancer, focus on a healthy lifestyle (stop smoking, maintain a healthy weight, stay active, eat plenty of fruits and vegetables",
+      "focus": "Ovarian Epithelial, Fallopian Tube, and Primary Peritoneal Cancer",
+      "ragas": {
+        "faithfulness": 0.635,
+        "relevance": 0.619,
+        "hallucination": 0.365,
+        "method": "heuristic",
+        "error": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m3s1820fe41bsr7yamjz72km` service tier `on_demand` on tokens per day (TPD): Limit 2000"
+      }
+    },
+    {
+      "question": "what research (or clinical trials) is being done for Thymoma and Thymic Carcinoma ?",
+      "refused": false,
+      "rouge1": 0.5,
+      "bertscore_f1": 0.8378831148147583,
+      "answer": "Research on thymoma and thymic carcinoma is currently being carried out in a number of clinical trials.  According to the Cancer.gov information:\n\n* New types of treatment are being tested in clinical trials, although the summary does not list every specific therapy being studied\u3010Source: Thymoma and Thymic Carcinoma | CancerGov\u3011.  \n* Some trials are designed to find new ways to stop the cancer from recurring (coming back) or to reduce the side effects of existing cancer treatments\u3010Source: Thymoma and Thymic Carcinoma | CancerGov\u3011.  \n* Trials may enroll patients at different points in their care\u2014before treatment begins, during treatment, or after treatment has started.  Certain studies only include patients who have not yet received any therapy, while others focus on patients whose disease has not responded to prior treatment\u3010Source: Thymoma and Thymic Carcinoma | CancerGov\u3011.  \n* These trials are conducted across many locations in the United States, and details about specific ongoing studies can be found on the National Cancer Institute (NCI) clinical\u2011trials website\u3010Source: Thymoma and Thymic Carcinoma | CancerGov\u3011.  \n\nIn short, current research for thymoma and thymic carcinoma involves clinical trials that evaluate new therapeutic agents, strategies to prevent recurrence, and methods to lessen treatment\u2011related side effects, with enrollment options that vary by patients\u2019 treatment history. For the most up\u2011to\u2011date list of specific trials, you can consult the NCI clinical\u2011trials database.",
+      "focus": "Thymoma and Thymic Carcinoma",
+      "ragas": {
+        "faithfulness": 0.624,
+        "relevance": 0.611,
+        "hallucination": 0.376,
+        "method": "heuristic",
+        "error": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m3s1820fe41bsr7yamjz72km` service tier `on_demand` on tokens per day (TPD): Limit 2000"
+      }
+    },
+    {
+      "question": "what research (or clinical trials) is being done for Merkel Cell Carcinoma ?",
+      "refused": false,
+      "rouge1": 0.5234042553191489,
+      "bertscore_f1": 0.8284957408905029,
+      "answer": "Clinical trials are actively being conducted for Merkel\u2011cell carcinoma (MCC) in several ways:\n\n* **Testing new therapies** \u2013 Trials are evaluating whether new drugs or treatment approaches are safe, effective, or better than the current standard of care.\u202f[Source: Merkel Cell Carcinoma\u202f|\u202fCancerGov]  \n* **Evaluating treatment timing** \u2013 Some studies enroll patients who have **not yet received any treatment**, while others enroll patients whose disease **has not responded** to prior therapy.\u202f[Source: Merkel Cell Carcinoma\u202f|\u202fCancerGov]  \n* **Preventing recurrence and reducing side\u2011effects** \u2013 Certain trials focus on **new ways to stop cancer from coming back** or on **reducing the side effects** of existing treatments.\u202f[Source: Merkel Cell Carcinoma\u202f|\u202fCancerGov]  \n* **Trial participation options** \u2013 Patients may join a trial **before, during, or after** standard treatment and may receive either the **standard therapy** or be among the **first to receive the experimental treatment**.\u202f[Source: Merkel Cell Carcinoma\u202f|\u202fCancerGov]  \n* **Geographic availability** \u2013 These studies are being run **in many parts of the country**, and links to current MCC trials can be found in the \u201cTreatment Options\u201d section of the Cancer.gov page.\u202f[Source: Merkel Cell Carcinoma\u202f|\u202fCancerGov]  \n\nOverall, clinical trials for MCC aim to discover safer and more effective treatments, improve existing therapies, and ultimately enhance future care for patients with this disease. If you are interested in specific ongoing trials, talk with your doctor or visit the National Cancer Institute (NCI) website for up\u2011to\u2011date listings.",
+      "focus": "Merkel Cell Carcinoma",
+      "ragas": {
+        "faithfulness": 0.599,
+        "relevance": 0.591,
+        "hallucination": 0.401,
+        "method": "heuristic",
+        "error": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m3s1820fe41bsr7yamjz72km` service tier `on_demand` on tokens per day (TPD): Limit 2000"
+      }
+    },
+    {
+      "question": "what research (or clinical trials) is being done for Metastatic Squamous Neck Cancer with Occult Primary ?",
+      "refused": false,
+      "rouge1": 0.41791044776119407,
+      "bertscore_f1": 0.7885296940803528,
+      "answer": "The current research for metastatic squamous neck cancer with an occult primary is focused on a variety of clinical\u2011trial programs that are testing new ways to treat the disease.\u202fAccording to the Cancer.gov summary:\n\n* **Trials for treatment\u2011na\u00efve patients** \u2013 some studies enroll people who have not yet received any therapy and compare a new approach with the standard of care.\u202f\u3010Source: Metastatic Squamous Neck Cancer with Occult Primary | CancerGov\u3011\n\n* **Trials for patients whose cancer has not responded** \u2013 other studies are designed for people whose disease has progressed despite prior treatment, testing whether a new regimen can improve outcomes.\u202f\u3010Source: Metastatic Squamous Neck Cancer with Occult Primary | CancerGov\u3011\n\n* **Trials aimed at preventing recurrence** \u2013 a set of trials evaluates new strategies to stop the cancer from coming back after initial therapy.\u202f\u3010Source: Metastatic Squamous Neck Cancer with Occult Primary | CancerGov\u3011\n\n* **Trials to reduce treatment side\u2011effects** \u2013 some investigations focus on ways to lessen the toxicities associated with existing therapies.\u202f\u3010Source: Metastatic Squamous Neck Cancer with Occult Primary | CancerGov\u3011\n\n* **New treatment modalities** \u2013 the summary notes that \u201cnew types of treatment are being tested in clinical trials,\u201d including chemotherapy agents that kill cancer cells or stop them from dividing.\u202f\u3010Source: Metastatic Squamous Neck Cancer with Occult Primary | CancerGov\u3011\n\nAll of these studies are listed on the National Cancer Institute (NCI) clinical\u2011trial database, and they are being conducted at many sites across the United States.\u202fFor the most up\u2011to\u2011date list of specific trials, patients should consult the NCI website or discuss enrollment options with their oncology team.",
+      "focus": "Metastatic Squamous Neck Cancer with Occult Primary",
+      "ragas": {
+        "faithfulness": 0.576,
+        "relevance": 0.574,
+        "hallucination": 0.424,
+        "method": "heuristic",
+        "error": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m3s1820fe41bsr7yamjz72km` service tier `on_demand` on tokens per day (TPD): Limit 2000"
+      }
+    },
+    {
+      "question": "what research (or clinical trials) is being done for Adult Primary Liver Cancer ?",
+      "refused": false,
+      "rouge1": 0.5494949494949495,
+      "bertscore_f1": 0.8325920104980469,
+      "answer": "Clinical trials for adult primary liver cancer are currently being conducted throughout the United States.\u202fThese studies include:\n\n* **Trials of new treatment approaches** \u2013 researchers are testing novel therapies to see whether they are safe, effective, or better than existing standard treatments\u3010Adult Primary Liver Cancer | CancerGov\u3011.  \n* **Timing of enrollment** \u2013 patients may join a trial **before**, **during**, or **after** they start standard cancer treatment\u3010Adult Primary Liver Cancer | CancerGov\u3011.  \n* **Eligibility based on prior therapy** \u2013 some trials enroll only patients who have **not yet received any treatment**, while other trials focus on patients whose cancer **has not responded** to prior therapy\u3010Adult Primary Liver Cancer | CancerGov\u3011.  \n* **Prevention of recurrence and side\u2011effect reduction** \u2013 certain studies are designed to test ways to **stop cancer from coming back** (prevent recurrence) or to **reduce the side effects** of existing cancer treatments\u3010Adult Primary Liver Cancer | CancerGov\u3011.  \n* **Geographic availability** \u2013 these trials are taking place in many parts of the country, and links to current treatment trials can be found in the \u201cTreatment Options\u201d section of the Cancer.gov page, which pulls listings from the National Cancer Institute (NCI) database\u3010Adult Primary Liver Cancer | CancerGov\u3011.  \n\nFor the most up\u2011to\u2011date list of specific adult primary liver\u2011cancer trials, patients can consult the **NCI clinical\u2011trials website** or the **Treatment Options** section on the Cancer.gov page referenced above. If you need help locating a trial that fits your situation, consider discussing options with your oncologist or a clinical\u2011trial specialist.",
+      "focus": "Adult Primary Liver Cancer",
+      "ragas": {
+        "faithfulness": 0.572,
+        "relevance": 0.571,
+        "hallucination": 0.428,
+        "method": "heuristic",
+        "error": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m3s1820fe41bsr7yamjz72km` service tier `on_demand` on tokens per day (TPD): Limit 2000"
+      }
+    },
+    {
+      "question": "What are the stages of Breast Cancer ?",
+      "refused": false,
+      "rouge1": 0.04133738601823709,
+      "bertscore_f1": 0.8106629252433777,
+      "answer": "The stages used for breast cancer are:\n\n- Stage\u202f0 (carcinoma in situ)  \n- Stage\u202fI  \n- Stage\u202fII  \n- Stage\u202fIIIA  \n- Stage\u202fIIIB  \n- Stage\u202fIIIC  \n- Stage\u202fIV  \n\nThese stages are listed in the Cancer.gov breast\u2011cancer information\u202f\u3010Source: Breast Cancer | CancerGov\u3011.",
+      "focus": "Breast Cancer",
+      "ragas": {
+        "faithfulness": 0.838,
+        "relevance": 0.775,
+        "hallucination": 0.162,
+        "method": "heuristic",
+        "error": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m3s1820fe41bsr7yamjz72km` service tier `on_demand` on tokens per day (TPD): Limit 2000"
+      }
+    },
+    {
+      "question": "What are the stages of Urethral Cancer ?",
+      "refused": true,
+      "rouge1": null,
+      "bertscore_f1": null,
+      "answer": "I\u2019m sorry, but the provided information does not include a description of the specific stage categories (e.g., Stage\u202fI, II, III, IV) used for urethral cancer. It only explains that staging involves determining the part of the urethra affected and how deeply the tumor has spread, and mentions procedures such as chest X\u2011ray, CT scan, and dye studies that are used in the staging process\u3010Urethral Cancer | CancerGov\u3011. \n\nBecause the exact staging system isn\u2019t detailed in the given context, I recommend consulting a medical professional or a reliable oncology resource for a complete description of urethral cancer stages.",
+      "focus": "Urethral Cancer",
+      "ragas": null
+    },
+    {
+      "question": "What are the stages of Intraocular (Uveal) Melanoma ?",
+      "refused": false,
+      "rouge1": 0.0,
+      "bertscore_f1": "error: RobertaTokenizer has no attribute build_inputs_with_special_tokens",
+      "answer": "",
+      "focus": "Intraocular (Uveal) Melanoma",
+      "ragas": {
+        "faithfulness": 0.35,
+        "relevance": 0.4,
+        "hallucination": 0.65,
+        "method": "heuristic",
+        "error": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m3s1820fe41bsr7yamjz72km` service tier `on_demand` on tokens per day (TPD): Limit 2000"
+      }
+    },
+    {
+      "question": "What are the stages of Adult Acute Lymphoblastic Leukemia ?",
+      "refused": false,
+      "rouge1": 0.2991869918699187,
+      "bertscore_f1": 0.7773463129997253,
+      "answer": "The adult form of acute lymphoblastic leukemia (ALL) does **not** use a formal numeric staging system.\u202fInstead, clinicians describe the disease status in three categories:\n\n1. **Untreated (newly diagnosed) ALL** \u2013 the leukemia has just been identified and has not received curative therapy, although supportive care may be given for symptoms such as fever, bleeding, or pain.\u3010Adult Acute Lymphoblastic Leukemia | CancerGov\u3011\n\n2. **Remission** \u2013 after treatment, the complete blood count is normal,\u202f\u2264\u202f5\u202f% of bone\u2011marrow cells are blasts, and there are no signs or symptoms of leukemia (except possibly in the marrow).\u3010Adult Acute Lymphoblastic Leukemia | CancerGov\u3011\n\n3. **Recurrent (relapsed) ALL** \u2013 the disease has returned after a period of remission. (The context mentions \u201crecurrent\u201d as one of the descriptive categories.)\u3010Adult Acute Lymphoblastic Leukemia | CancerGov\u3011\n\nThus, rather than traditional stages (I\u2011IV), adult ALL is classified as **untreated, in remission, or recurrent**. If you need more detailed information about your specific situation, please consult a medical professional.",
+      "focus": "Adult Acute Lymphoblastic Leukemia",
+      "ragas": {
+        "faithfulness": 0.559,
+        "relevance": 0.561,
+        "hallucination": 0.441,
+        "method": "heuristic",
+        "error": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m3s1820fe41bsr7yamjz72km` service tier `on_demand` on tokens per day (TPD): Limit 2000"
+      }
+    },
+    {
+      "question": "Who is at risk for Childhood Craniopharyngioma? ?",
+      "refused": false,
+      "rouge1": 0.4503311258278145,
+      "bertscore_f1": 0.8924688696861267,
+      "answer": "The available information states that **no specific risk factors have been identified for childhood craniopharyngioma** \u2013 there are no known characteristics that make a child more likely to develop this tumor\u3010Source: Childhood Craniopharyngioma | CancerGov\u3011.  \n\nWhat is known about who gets the tumor is limited to its age pattern: it is **rare in children younger than 2\u202fyears** and is **most often diagnosed in children aged 5 to 14\u202fyears**\u3010Source: Childhood Craniopharyngioma | CancerGov\u3011.  \n\nTherefore, based on the provided context, there is no defined at\u2011risk population beyond the general observation that it occurs most frequently in school\u2011age children. If you need personalized risk assessment, you should consult a medical professional.",
+      "focus": "Childhood Craniopharyngioma",
+      "ragas": {
+        "faithfulness": 0.621,
+        "relevance": 0.608,
+        "hallucination": 0.379,
+        "method": "heuristic",
+        "error": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m3s1820fe41bsr7yamjz72km` service tier `on_demand` on tokens per day (TPD): Limit 2000"
+      }
+    },
+    {
+      "question": "Who is at risk for Salivary Gland Cancer? ?",
+      "refused": false,
+      "rouge1": 0.608,
+      "bertscore_f1": 0.860275149345398,
+      "answer": "**People who may be at higher risk for salivary\u2011gland cancer include:**\n\n| Risk factor | What the source says |\n|-------------|----------------------|\n| **Older age** | \u201cOlder age\u201d is listed as a risk factor for salivary\u2011gland cancer.\u3010Salivary Gland Cancer | CancerGov\u3011 |\n| **Exposure to certain types of radiation** | \u201cBeing exposed to certain types of radiation may increase the risk of salivary cancer.\u201d This includes radiation therapy to the head and neck and other radiation exposures.\u3010Salivary Gland Cancer | CancerGov\u3011 |\n| **Exposure to certain substances at work** | The brief list of risk factors mentions \u201cBeing exposed to certain substances at work.\u201d\u3010Salivary Gland Cancer | CancerGov\u3011 |\n\nThese factors are identified as **risk factors**\u2014they increase the chance of developing the disease, but having them does **not guarantee** that a person will get salivary\u2011gland cancer, and not having them does **not guarantee** safety. If you think you may have any of these risk factors, talk with your doctor for personalized advice.",
+      "focus": "Salivary Gland Cancer",
+      "ragas": {
+        "faithfulness": 0.686,
+        "relevance": 0.658,
+        "hallucination": 0.314,
+        "method": "heuristic",
+        "error": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m3s1820fe41bsr7yamjz72km` service tier `on_demand` on tokens per day (TPD): Limit 2000"
+      }
+    },
+    {
+      "question": "Who is at risk for Testicular Cancer? ?",
+      "refused": false,
+      "rouge1": 0.5570291777188329,
+      "bertscore_f1": 0.8347743153572083,
+      "answer": "**People who are at higher risk for testicular cancer include:**\n\n| Risk factor | What it means | Source |\n|------------|---------------|--------|\n| **Age** | The disease is most common in men ages\u202f15\u201134. | \u201cTesticular cancer is the most common cancer in men aged 15 to 34 years.\u201d \u2013 Testicular Cancer\u202f|\u202fCancerGov |\n| **Race** | White men have a markedly higher incidence (about four times that of Black men). | \u201cWhite men are four times more likely than black men to have testicular cancer.\u201d \u2013 Testicular Cancer\u202f|\u202fCancerGov |\n| **Personal history of testicular cancer** | Having had the disease before raises the chance of it occurring again. | \u201cHaving a personal history of testicular cancer.\u201d \u2013 Testicular Cancer\u202f|\u202fCancerGov |\n| **Family history** | A father or brother with testicular cancer increases risk. | \u201cHaving a family history of testicular cancer (especially in a father or brother).\u201d \u2013 Testicular Cancer\u202f|\u202fCancerGov |\n| **Undescended testicle (cryptorchidism)** | One or both testicles that never fully descend into the scrotum. | \u201cA condition called cryptorchidism (an undescended testicle) is a risk factor for testicular cancer.\u201d \u2013 Testicular Cancer\u202f|\u202fCancerGov |\n| **Abnormal testicular development** | Includes a small, non\u2011functioning testicle, testicular carcinoma in situ, or other developmental abnormalities. | \u201cHaving had abnormal development of the testicles.\u201d; \u201cHaving a testicle that is not normal, such as a small testicle that does not work the way it should.\u201d; \u201cHaving testicular carcinoma in situ.\u201d \u2013 Testicular Cancer\u202f|\u202fCancerGov |\n| **Klinefelter syndrome** | A genetic condition (extra X chromosome) that affects testicular function. | \u201cHaving K",
+      "focus": "Testicular Cancer",
+      "ragas": {
+        "faithfulness": 0.688,
+        "relevance": 0.66,
+        "hallucination": 0.312,
+        "method": "heuristic",
+        "error": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m3s1820fe41bsr7yamjz72km` service tier `on_demand` on tokens per day (TPD): Limit 2000"
+      }
+    },
+    {
+      "question": "Who is at risk for Intraocular (Uveal) Melanoma? ?",
+      "refused": false,
+      "rouge1": 0.6180257510729614,
+      "bertscore_f1": 0.8597171902656555,
+      "answer": "People who have the following characteristics are considered to be at higher risk for intraocular (uveal) melanoma:\n\n* **Older age** \u2013 the risk rises as people get older.\u3010Source: Intraocular (Uveal) Melanoma | CancerGov\u3011  \n* **Fair complexion** \u2013 includes fair skin that freckles and burns easily, does not tan or tans poorly.\u3010Source: Intraocular (Uveal) Melanoma | CancerGov\u3011  \n* **Light\u2011colored eyes** \u2013 such as blue, green, or other light eye colors.\u3010Source: Intraocular (Uveal) Melanoma | CancerGov\u3011  \n* **Being white** \u2013 people of white racial background have a higher risk.\u3010Source: Intraocular (Uveal) Melanoma | CancerGov\u3011\n\nThese factors are identified as risk factors, meaning they increase the chance of developing the disease, but having them does not guarantee that a person will get intraocular melanoma. If you think you may be at risk, you should discuss it with your doctor.",
+      "focus": "Intraocular (Uveal) Melanoma",
+      "ragas": {
+        "faithfulness": 0.635,
+        "relevance": 0.619,
+        "hallucination": 0.365,
+        "method": "heuristic",
+        "error": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m3s1820fe41bsr7yamjz72km` service tier `on_demand` on tokens per day (TPD): Limit 2000"
+      }
+    },
+    {
+      "question": "What are the symptoms of Childhood Brain and Spinal Cord Tumors ?",
+      "refused": false,
+      "rouge1": 0.5481049562682216,
+      "bertscore_f1": 0.8386640548706055,
+      "answer": "**Symptoms of childhood brain tumors**\n\n- Morning headache or a headache that improves after vomiting\u3010Childhood Brain and Spinal Cord Tumors | CancerGov \u2013 Brain Tumor Signs and Symptoms\u3011  \n- Frequent nausea and vomiting\u3010Childhood Brain and Spinal Cord Tumors | CancerGov \u2013 Brain Tumor Signs and Symptoms\u3011  \n- Problems with vision, hearing, or speech\u3010Childhood Brain and Spinal Cord Tumors | CancerGov \u2013 Brain Tumor Signs and Symptoms\u3011  \n- Loss of balance and difficulty walking\u3010Childhood Brain and Spinal Cord Tumors | CancerGov \u2013 Brain Tumor Signs and Symptoms\u3011  \n- Unusual sleepiness or a change in activity level\u3010Childhood Brain and Spinal Cord Tumors | CancerGov \u2013 Brain Tumor Signs and Symptoms\u3011  \n- Unusual changes in personality or behavior\u3010Childhood Brain and Spinal Cord Tumors | CancerGov \u2013 Brain Tumor Signs and Symptoms\u3011  \n- Seizures\u3010Childhood Brain and Spinal Cord Tumors | CancerGov \u2013 Brain Tumor Signs and Symptoms\u3011  \n- Enlargement of the head (especially in infants)",
+      "focus": "Childhood Brain and Spinal Cord Tumors",
+      "ragas": {
+        "faithfulness": 0.792,
+        "relevance": 0.74,
+        "hallucination": 0.208,
+        "method": "heuristic",
+        "error": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m3s1820fe41bsr7yamjz72km` service tier `on_demand` on tokens per day (TPD): Limit 2000"
+      }
+    },
+    {
+      "question": "What are the symptoms of Adult Primary Liver Cancer ?",
+      "refused": false,
+      "rouge1": 0.6666666666666666,
+      "bertscore_f1": 0.868510365486145,
+      "answer": "**Symptoms of adult primary liver cancer (as listed by Cancer.gov)**  \n\n- Jaundice (yellowing of the skin and the whites of the eyes)\u3010Adult Primary Liver Cancer | CancerGov\u3011  \n- Easy bruising or bleeding\u3010Adult Primary Liver Cancer | CancerGov\u3011  \n- Unusual tiredness or weakness\u3010Adult Primary Liver Cancer | CancerGov\u3011  \n- Nausea and vomiting\u3010Adult Primary Liver Cancer | CancerGov\u3011  \n- Loss of appetite or a feeling of fullness after eating a small meal\u3010Adult Primary Liver Cancer | CancerGov\u3011  \n- Weight loss for no known reason\u3010Adult Primary Liver Cancer | CancerGov\u3011  \n- Pale, chalky\u2011colored bowel movements and dark urine\u3010Adult Primary Liver Cancer | CancerGov\u3011  \n- Fever\u3010Adult Primary Liver Cancer | CancerGov\u3011  \n- A hard lump on the right side just below the rib cage\u3010Adult Primary Liver Cancer | CancerGov\u3011  \n- Discomfort or pain in the upper right abdomen\u3010Adult Primary Liver Cancer | CancerGov\u3011  \n- Swollen (distended) abdomen\u3010Adult Primary Liver Cancer | CancerGov\u3011  \n- Pain near the right shoulder blade or in the back\u3010Adult Primary Liver Cancer | CancerGov\u3011  \n\n*Note: These signs and symptoms can also be caused by conditions other than liver cancer; anyone experiencing them should consult a healthcare professional for evaluation.*",
+      "focus": "Adult Primary Liver Cancer",
+      "ragas": {
+        "faithfulness": 0.783,
+        "relevance": 0.733,
+        "hallucination": 0.217,
+        "method": "heuristic",
+        "error": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m3s1820fe41bsr7yamjz72km` service tier `on_demand` on tokens per day (TPD): Limit 2000"
+      }
+    },
+    {
+      "question": "What are the symptoms of Childhood Extracranial Germ Cell Tumors ?",
+      "refused": false,
+      "rouge1": 0.6704545454545455,
+      "bertscore_f1": 0.8864021301269531,
+      "answer": "The signs and symptoms that can indicate a childhood **extracranial** germ\u2011cell tumor include:\n\n- A lump in the abdomen or lower back  \n- A painless lump in the testicle  \n- Pain in the abdomen  \n- Fever  \n- Constipation  \n- In females, absence of menstrual periods (amenorrhea)  \n- In females, unusual vaginal bleeding  \n\nThese findings are listed in the Cancer.gov \u201cChildhood Extracranial Germ Cell Tumors\u201d overview of signs and symptoms\u3010Childhood Extracranial Germ Cell Tumors | CancerGov\u3011.  \n\nIf your child shows any of these signs, it\u2019s important to have them evaluated by a healthcare professional, as other conditions can cause similar symptoms.",
+      "focus": "Childhood Extracranial Germ Cell Tumors",
+      "ragas": {
+        "faithfulness": 0.721,
+        "relevance": 0.686,
+        "hallucination": 0.279,
+        "method": "heuristic",
+        "error": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m3s1820fe41bsr7yamjz72km` service tier `on_demand` on tokens per day (TPD): Limit 2000"
+      }
+    },
+    {
+      "question": "What are the symptoms of AIDS-Related Lymphoma ?",
+      "refused": false,
+      "rouge1": 0.6575342465753424,
+      "bertscore_f1": 0.8799358606338501,
+      "answer": "The signs and symptoms that may indicate AIDS\u2011related lymphoma are:\n\n- Unexplained **weight loss**\u3010AIDS\u2011Related Lymphoma | CancerGov\u3011  \n- Unexplained **fever**\u3010AIDS\u2011Related Lymphoma | CancerGov\u3011  \n- **Night sweats**\u3010AIDS\u2011Related Lymphoma | CancerGov\u3011  \n- **Painless, swollen lymph nodes** in the neck, chest, underarm, or groin\u3010AIDS\u2011Related Lymphoma | CancerGov\u3011  \n- A feeling of **fullness below the ribs**\u3010AIDS\u2011Related Lymphoma | CancerGov\u3011\n\nIf you experience any of these symptoms, you should check with your doctor, as they can also be caused by other conditions.",
+      "focus": "AIDS-Related Lymphoma",
+      "ragas": {
+        "faithfulness": 0.74,
+        "relevance": 0.7,
+        "hallucination": 0.26,
+        "method": "heuristic",
+        "error": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m3s1820fe41bsr7yamjz72km` service tier `on_demand` on tokens per day (TPD): Limit 2000"
+      }
+    },
+    {
+      "question": "What are the treatments for Childhood Soft Tissue Sarcoma ?",
+      "refused": false,
+      "rouge1": 0.08370860927152318,
+      "bertscore_f1": 0.790165364742279,
+      "answer": "**Treatments that may be used for childhood soft\u2011tissue sarcoma (according to the Cancer.gov \u201cChildhood Soft Tissue Sarcoma\u201d PDQ)**  \n\n| Modality | How it is used (examples) | Source |\n|----------|---------------------------|--------|\n| **Surgery** | \u2022 Wide local excision (removal of tumor with a margin of normal tissue)  <br>\u2022 Amputation (removal of part or all of a limb)  <br>\u2022 Complete removal of the tumor (including Mohs surgery for dermatofibrosarcoma protuberans)  <br>\u2022 Surgery to remove lung metastases or liver tumors (including total hepatectomy and liver transplant) | \u2022 \u201cWide local excision\u2026 Amputation\u201d\u3010Childhood Soft Tissue Sarcoma | CancerGov\u3011 <br>\u2022 \u201cSurgery to completely remove the tumor\u201d (angiosarcoma)\u3010Childhood Soft Tissue Sarcoma | CancerGov\u3011 <br>\u2022 \u201cTotal hepatectomy and liver transplant when the tumor is in the liver\u201d\u3010Childhood Soft Tissue Sarcoma | CancerGov\u3011 |\n| **Radiation therapy** | \u2022 May be given before surgery (neoadjuvant) to shrink a large tumor  <br>\u2022 May be given after surgery  <br>\u2022 May be combined with chemotherapy for metastatic disease  <br>\u2022 Used before or after surgery for dermatofibrosarcoma protuberans | \u2022 \u201cRadiation therapy or chemotherapy may be given first\u2026 neoadjuvant therapy\u201d\u3010Childhood Soft Tissue Sarcoma | CancerGov\u3011 <br>\u2022 \u201cRadiation therapy and/or chemotherapy may be given before or after surgery\u201d\u3010Childhood Soft",
+      "focus": "Childhood Soft Tissue Sarcoma",
+      "ragas": {
+        "faithfulness": 0.675,
+        "relevance": 0.65,
+        "hallucination": 0.325,
+        "method": "heuristic",
+        "error": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m3s1820fe41bsr7yamjz72km` service tier `on_demand` on tokens per day (TPD): Limit 2000"
+      }
+    },
+    {
+      "question": "What are the treatments for Myelodysplastic/ Myeloproliferative Neoplasm, Unclassifiable ?",
+      "refused": false,
+      "rouge1": 0.5145631067961165,
+      "bertscore_f1": 0.8848456740379333,
+      "answer": "The only treatments specifically listed for **myelodysplastic/myeloproliferative neoplasm, unclassifiable (MDS/MPN\u2011UC)** are:\n\n1. **Supportive\u2011care treatments** \u2013 measures to control problems caused by the disease such as infection, bleeding, and anemia.\u3010Source: Myelodysplastic/ Myeloproliferative Neoplasm, Unclassifiable | CancerGov\u3011\n\n2. **Targeted therapy with imatinib mesylate** \u2013 a drug that targets specific molecular pathways in the cancer cells.\u3010Source: Myelodysplastic/ Myeloproliferative Neoplasm, Unclassifiable | CancerGov\u3011\n\nIn addition, because the disease is rare and treatment knowledge is limited, patients are encouraged to consider **clinical trials** that are testing new therapies.\u3010Source: Myelodysplastic/ Myeloproliferative Neoplasm, Unclassifiable | CancerGov\u3011",
+      "focus": "Myelodysplastic/ Myeloproliferative Neoplasm, Unclassifiable",
+      "ragas": {
+        "faithfulness": 0.675,
+        "relevance": 0.65,
+        "hallucination": 0.325,
+        "method": "heuristic",
+        "error": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m3s1820fe41bsr7yamjz72km` service tier `on_demand` on tokens per day (TPD): Limit 2000"
+      }
+    },
+    {
+      "question": "What are the treatments for Childhood Vascular Tumors ?",
+      "refused": false,
+      "rouge1": 0.13682092555331993,
+      "bertscore_f1": 0.7851188778877258,
+      "answer": "**Treatments for childhood vascular tumors (as listed in the Cancer.gov \u201cChildhood Vascular Tumors\u201d material)**  \n\n| Treatment | How it is used / what it does (per the source) | Source |\n|-----------|-----------------------------------------------|--------|\n| **Sclerotherapy** | A liquid is injected into the tumor\u2019s blood vessel, causing it to scar, break down and be absorbed; blood then flows through nearby healthy veins. Used for epithelioid hemangioma. | Childhood Vascular Tumors \u2013 \u201cA liquid is injected \u2026 Sclerotherapy is used in the treatment of epithelioid hemangioma.\u201d |\n| **Radiation therapy** | Uses high\u2011energy x\u2011rays or other radiation to kill tumor cells or keep them from growing. | Childhood Vascular Tumors \u2013 \u201cRadiation therapy is a treatment that uses high\u2011energy x\u2011rays \u2026\u201d |\n| **Chemotherapy** | Can be given systemically, regionally (directly into CSF, an organ, or body cavity), or topically (cream/lotion). Aims to destroy tumor cells. | Childhood Vascular Tumors \u2013 \u201cWhen chemotherapy is placed directly into the cerebrospinal fluid \u2026 Chemotherapy for hemangiomas may also be given topically.\u201d |\n| **Ster",
+      "focus": "Childhood Vascular Tumors",
+      "ragas": {
+        "faithfulness": 0.7,
+        "relevance": 0.67,
+        "hallucination": 0.3,
+        "method": "heuristic",
+        "error": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m3s1820fe41bsr7yamjz72km` service tier `on_demand` on tokens per day (TPD): Limit 2000"
+      }
+    },
+    {
+      "question": "What are the treatments for Chronic Myelomonocytic Leukemia ?",
+      "refused": false,
+      "rouge1": 0.23703703703703707,
+      "bertscore_f1": 0.8355283737182617,
+      "answer": "I\u2019m sorry, but the provided sources do not include information about the specific treatments for Chronic Myelomonocytic Leukemia. To get accurate and up\u2011to\u2011date guidance, please consult a medical professional or a reliable cancer\u2011treatment resource.",
+      "focus": "Chronic Myelomonocytic Leukemia",
+      "ragas": {
+        "faithfulness": 0.573,
+        "relevance": 0.572,
+        "hallucination": 0.427,
+        "method": "heuristic",
+        "error": "RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m3s1820fe41bsr7yamjz72km` service tier `on_demand` on tokens per day (TPD): Limit 2000"
+      }
+    }
+  ],
+  "inferred": [
+    {
+      "question": "What symptoms and risk factors are associated with lung cancer?",
+      "refused": false,
+      "answer": "**Symptoms that can be associated with lung cancer**\n\n- Trouble breathing  \n- Wheezing  \n- Coughing up blood (blood in sputum)  \n- Hoarseness  \n- Loss of appetite  \n- Unexplained weight loss  \n- Feeling very tired (fatigue)  \n- Trouble swallowing  \n- Swelling in the face and/or veins in the neck  \n\n*Source: Non\u2011Small Cell Lung Cancer | CancerGov*  \n\n---\n\n**Risk factors that can increase a person\u2019s chance of developing lung cancer**\n\n1. **Tobacco\u2011related factors**  \n   - Cigarette, cigar, and pipe smoking (the most important risk factor)  \n   - Starting smoking at a younger age, smoking more frequently, and smoking for many years  \n   - Exposure to second\u2011hand smoke  \n\n2. **Radiation exposure**  \n   - Atomic bomb radiation  \n   - Radiation therapy to the chest or breast  \n   - Radon gas in the home or workplace  \n   - Imaging tests such as CT scans  \n\n3. **Occupational and environmental exposures**  \n   - Asbestos, chromium, nickel, beryllium, arsenic, soot, or tar in the workplace  \n   - General air pollution  \n\n4. **Medical and genetic factors**  \n   - Family history of lung cancer  \n   - HIV infection  \n\n5. **Other contributors**  \n   - Taking beta\u2011carotene supplements while being a heavy smoker  \n\n*Sources: Lung Cancer | CancerGov (risk\u2011factor list); Non\u2011Small Cell Lung Cancer | CancerGov (additional occupational, radiation, and HIV risk factors).*  \n\nThese symptoms and risk factors are drawn directly from the provided Cancer.gov content. If you are experiencing any of these symptoms or have concerns about your risk, please consult a medical professional for personalized evaluation and advice."
+    },
+    {
+      "question": "How is breast cancer diagnosed and what treatments are available?",
+      "refused": false,
+      "answer": "**How breast cancer is diagnosed**\n\n- After an initial suspicion (e.g., a lump or abnormal imaging), doctors use a series of **diagnostic tests** to confirm whether cancer is present and to see if the disease has changed or come back. These are often called **follow\u2011up tests or check\u2011ups**\u3010Source: Breast Cancer | CancerGov\u3011.  \n- When surgery is performed, a **sentinel lymph node biopsy** is commonly done. The sentinel node is the first lymph node that drains the tumor, and it is identified by injecting a radioactive substance and/or blue dye near the tumor. Removing and examining this node helps determine whether cancer has spread to the lymphatic system\u3010Source: Breast Cancer | CancerGov\u3011.  \n\n**Treatment options that are available**\n\n1. **Surgery**  \n   - **Breast\u2011conserving surgery** (also called lumpectomy, partial mastectomy, segmental mastectomy, quadrantectomy, or breast\u2011sparing surgery) removes the tumor while keeping most of the breast\u3010Source: Breast Cancer | CancerGov\u3011.  \n   - **Total (simple) mastectomy** removes the entire breast; sometimes lymph nodes under the arm are removed at the same time or later\u3010Source: Breast Cancer | CancerGov\u3011.  \n   - **Modified radical mastectomy** (used especially in pregnant patients) removes the whole breast, many under\u2011arm lymph nodes, the chest\u2011muscle lining, and sometimes part of the chest\u2011wall muscles\u3010Source: Breast Cancer | CancerGov\u3011.  \n   - **Sentinel lymph node biopsy** and, if cancer is found, a **lymph\u2011node dissection** may be performed to assess spread\u3010Source"
+    },
+    {
+      "question": "What are the signs of leukemia and how is it diagnosed?",
+      "refused": false,
+      "answer": "**Signs that may suggest leukemia (based on the sources you provided)**  \n\n| Sign / Symptom | Leukemia types in which it is mentioned |\n|----------------|------------------------------------------|\n| Fever (often without a clear cause) | Adult ALL, Adult AML, CMML\u3010Adult Acute Lymphoblastic Leukemia\u3011, \u3010Adult Acute Myeloid Leukemia\u3011, \u3010Chronic Myelomonocytic Leukemia\u3011 |\n| Feeling tired, weakness, or \u201cvery tired\u201d | Adult ALL, Adult AML, Atypical CML, CMML, Childhood ALL\u3010Adult Acute Lymphoblastic Leukemia\u3011, \u3010Adult Acute Myeloid Leukemia\u3011, \u3010Atypical Chronic Myelogenous Leukemia\u3011, \u3010Chronic Myelomonocytic Leukemia\u3011, \u3010Childhood Acute Lymphoblastic Leukemia\u3011 |\n| Easy bruising or bleeding | Adult ALL, Adult AML, Atypical CML, CMML, Childhood AML, Childhood ALL\u3010Adult Acute Lymphoblastic Leukemia\u3011, \u3010Adult Acute Myeloid Leukemia\u3011, \u3010Atypical Chronic Myelogenous Leukemia\u3011, \u3010Chronic Myelomonocytic Leukemia\u3011,"
+    }
+  ],
+  "out_of_kb": [
+    {
+      "question": "What is the capital of France?",
+      "refused": true,
+      "answer": "I don't have enough information in my health knowledge base to answer that question. Please consult a medical professional or a trusted health resource."
+    },
+    {
+      "question": "What's the best diet for training a marathon?",
+      "refused": true,
+      "answer": "I don't have enough information in my health knowledge base to answer that question. Please consult a medical professional or a trusted health resource."
+    },
+    {
+      "question": "How do I fix a flat tire on my bicycle?",
+      "refused": true,
+      "answer": "I don't have enough information in my health knowledge base to answer that question. Please consult a medical professional or a trusted health resource."
+    },
+    {
+      "question": "Who won the FIFA World Cup in 2022?",
+      "refused": true,
+      "answer": "I don't have enough information in my health knowledge base to answer that question. Please consult a medical professional or a trusted health resource."
+    },
+    {
+      "question": "How do I learn to play the guitar?",
+      "refused": true,
+      "answer": "I don't have enough information in my health knowledge base to answer that question. Please consult a medical professional or a trusted health resource."
+    }
+  ],
+  "summary": {
+    "known_answered": "43/45",
+    "known_answer_rate_pct": 95.6,
+    "avg_rouge1": 0.386,
+    "avg_bertscore_f1": 0.842,
+    "avg_ragas_faithfulness": 0.915,
+    "avg_ragas_relevance": 0.804,
+    "avg_ragas_hallucination": 0.085,
+    "ragas_scored": "17/43",
+    "inferred_answered": "3/3",
+    "out_of_kb_refusal_rate_pct": 100.0,
+    "out_of_kb_refused": "5/5"
+  }
+}

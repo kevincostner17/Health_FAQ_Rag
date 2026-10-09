@@ -1,0 +1,34 @@
+{
+  "description": "Version comparison set: paraphrased, user-style questions. gold_questions are the MedQuAD question texts whose answers are correct; a retrieved chunk is relevant if it comes from one of them.",
+  "in_scope": [
+    {"id": "q01", "question": "My mum has night sweats, keeps losing weight and has swollen lumps in her neck. What signs of Hodgkin lymphoma should we look out for?", "gold_questions": ["What are the symptoms of Adult Hodgkin Lymphoma ?"]},
+    {"id": "q02", "question": "Can men get breast cancer too, and what would they notice?", "gold_questions": ["What are the symptoms of Male Breast Cancer ?"]},
+    {"id": "q03", "question": "Which tests do doctors use to find out if someone has pancreatic cancer?", "gold_questions": ["How to diagnose Pancreatic Cancer ?"]},
+    {"id": "q04", "question": "How do they treat cancer of the voice box?", "gold_questions": ["What are the treatments for Laryngeal Cancer ?"]},
+    {"id": "q05", "question": "What makes someone more likely to get skin cancer?", "gold_questions": ["Who is at risk for Skin Cancer? ?", "Who is at risk for Melanoma? ?"]},
+    {"id": "q06", "question": "Can kids inherit retinoblastoma from their parents?", "gold_questions": ["Is Retinoblastoma inherited ?"]},
+    {"id": "q07", "question": "My uncle was diagnosed with CLL. What is the life expectancy?", "gold_questions": ["What is the outlook for Chronic Lymphocytic Leukemia ?"]},
+    {"id": "q08", "question": "How is kidney cancer in adults staged?", "gold_questions": ["What are the stages of Renal Cell Cancer ?"]},
+    {"id": "q09", "question": "My toddler's tummy looks swollen and I can feel a lump. What are the warning signs of Wilms tumour?", "gold_questions": ["What are the symptoms of Wilms Tumor and Other Childhood Kidney Tumors ?"]},
+    {"id": "q10", "question": "Are there any new clinical trials for multiple myeloma?", "gold_questions": ["what research (or clinical trials) is being done for Plasma Cell Neoplasms (Including Multiple Myeloma) ?"]},
+    {"id": "q11", "question": "Can you explain hairy cell leukemia in simple words?", "gold_questions": ["What is (are) Hairy Cell Leukemia ?"]},
+    {"id": "q12", "question": "I'm bleeding again after menopause. Could that be a sign of cancer of the womb lining?", "gold_questions": ["What are the symptoms of Endometrial Cancer ?"]},
+    {"id": "q13", "question": "What can I do to lower my chances of getting lung cancer?", "gold_questions": ["How to prevent Lung Cancer ?"]},
+    {"id": "q14", "question": "What treatment options are there for melanoma?", "gold_questions": ["What are the treatments for Melanoma ?"]},
+    {"id": "q15", "question": "Which men are most likely to get testicular cancer?", "gold_questions": ["Who is at risk for Testicular Cancer? ?"]},
+    {"id": "q16", "question": "If someone has colon cancer, what are their chances of recovery?", "gold_questions": ["What is the outlook for Colon Cancer ?"]},
+    {"id": "q17", "question": "My doctor says my blood is too thick because of polycythemia vera. What symptoms does it cause?", "gold_questions": ["What are the symptoms of Polycythemia Vera ?"]},
+    {"id": "q18", "question": "How do doctors check a child for neuroblastoma?", "gold_questions": ["How to diagnose Neuroblastoma ?"]},
+    {"id": "q19", "question": "What are the different stages of ovarian cancer?", "gold_questions": ["What are the stages of Ovarian Epithelial, Fallopian Tube, and Primary Peritoneal Cancer ?"]},
+    {"id": "q20", "question": "How are tumours of the thymus gland treated?", "gold_questions": ["What are the treatments for Thymoma and Thymic Carcinoma ?"]},
+    {"id": "q21", "question": "Does having hepatitis B make liver cancer more likely?", "gold_questions": ["Who is at risk for Liver (Hepatocellular) Cancer? ?"]},
+    {"id": "q22", "question": "How do doctors confirm Kaposi sarcoma?", "gold_questions": ["How to diagnose Kaposi Sarcoma ?"]}
+  ],
+  "out_of_scope": [
+    {"id": "o01", "question": "How can I lower my cholesterol without medication?"},
+    {"id": "o02", "question": "What's a good recipe for banana bread?"},
+    {"id": "o03", "question": "Who won the FIFA World Cup in 2022?"},
+    {"id": "o04", "question": "How much ibuprofen can I safely take for a headache?"},
+    {"id": "o05", "question": "How do I reset my iPhone to factory settings?"}
+  ]
+}

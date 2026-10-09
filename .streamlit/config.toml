@@ -1,0 +1,3 @@
+# Keep full menu (Rerun, Print, Clear cache, etc.) — Record screencast hidden in app.py
+[client]
+toolbarMode = "developer"

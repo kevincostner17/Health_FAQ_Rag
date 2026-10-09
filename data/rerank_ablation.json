@@ -1,0 +1,72 @@
+{
+  "dev": {
+    "n": 40,
+    "configs": {
+      "none": {
+        "hit": 1.0,
+        "rr": 0.919,
+        "precision": 0.69
+      },
+      "ce": {
+        "hit": 1.0,
+        "rr": 0.988,
+        "precision": 0.725
+      },
+      "ce_k10": {
+        "hit": 1.0,
+        "rr": 0.988,
+        "precision": 0.72
+      },
+      "ce_text": {
+        "hit": 0.925,
+        "rr": 0.806,
+        "precision": 0.465
+      },
+      "rrf": {
+        "hit": 1.0,
+        "rr": 0.958,
+        "precision": 0.72
+      },
+      "rrf_k10": {
+        "hit": 1.0,
+        "rr": 0.958,
+        "precision": 0.705
+      }
+    }
+  },
+  "test": {
+    "n": 22,
+    "configs": {
+      "none": {
+        "hit": 0.955,
+        "rr": 0.82,
+        "precision": 0.527
+      },
+      "ce": {
+        "hit": 0.955,
+        "rr": 0.744,
+        "precision": 0.564
+      },
+      "ce_k10": {
+        "hit": 0.955,
+        "rr": 0.761,
+        "precision": 0.555
+      },
+      "ce_text": {
+        "hit": 0.955,
+        "rr": 0.7,
+        "precision": 0.373
+      },
+      "rrf": {
+        "hit": 0.955,
+        "rr": 0.795,
+        "precision": 0.555
+      },
+      "rrf_k10": {
+        "hit": 0.955,
+        "rr": 0.769,
+        "precision": 0.555
+      }
+    }
+  }
+}

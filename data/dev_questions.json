@@ -1,0 +1,285 @@
+{
+  "description": "Development set for tuning the V4 reranker. Topics do not overlap the test set.",
+  "in_scope": [
+    {
+      "id": "d01",
+      "question": "What is primary brain lymphoma, and how does it happen?",
+      "gold_questions": [
+        "What is (are) Primary CNS Lymphoma ?"
+      ]
+    },
+    {
+      "id": "d02",
+      "question": "What signs should I look for if my child has a soft tissue sarcoma?",
+      "gold_questions": [
+        "What are the symptoms of Childhood Soft Tissue Sarcoma ?"
+      ]
+    },
+    {
+      "id": "d03",
+      "question": "What\u2019s the prognosis for someone with uterine sarcoma?",
+      "gold_questions": [
+        "What is the outlook for Uterine Sarcoma ?"
+      ]
+    },
+    {
+      "id": "d04",
+      "question": "How do doctors figure out if someone has cancer in the sinuses or nose?",
+      "gold_questions": [
+        "How to diagnose Paranasal Sinus and Nasal Cavity Cancer ?"
+      ]
+    },
+    {
+      "id": "d05",
+      "question": "What are the stages of liver cancer in adults?",
+      "gold_questions": [
+        "What are the stages of Adult Primary Liver Cancer ?"
+      ]
+    },
+    {
+      "id": "d06",
+      "question": "What are the stages of gallbladder cancer?",
+      "gold_questions": [
+        "What are the stages of Gallbladder Cancer ?"
+      ]
+    },
+    {
+      "id": "d07",
+      "question": "What\u2019s the outlook for gallbladder cancer?",
+      "gold_questions": [
+        "What is the outlook for Gallbladder Cancer ?"
+      ]
+    },
+    {
+      "id": "d08",
+      "question": "How do doctors diagnose cancer in the kidney\u2019s collecting area and ureter?",
+      "gold_questions": [
+        "How to diagnose Transitional Cell Cancer of the Renal Pelvis and Ureter ?"
+      ]
+    },
+    {
+      "id": "d09",
+      "question": "What treatments are available for kids with rhabdomyosarcoma?",
+      "gold_questions": [
+        "What are the treatments for Childhood Rhabdomyosarcoma ?"
+      ]
+    },
+    {
+      "id": "d10",
+      "question": "How do doctors diagnose Merkel cell skin cancer?",
+      "gold_questions": [
+        "How to diagnose Merkel Cell Carcinoma ?"
+      ]
+    },
+    {
+      "id": "d11",
+      "question": "What are the stages of liver cancer in kids?",
+      "gold_questions": [
+        "What are the stages of Childhood Liver Cancer ?"
+      ]
+    },
+    {
+      "id": "d12",
+      "question": "Who\u2019s at risk for ovarian, fallopian tube, or peritoneal cancer?",
+      "gold_questions": [
+        "Who is at risk for Ovarian, Fallopian Tube, and Primary Peritoneal Cancer? ?"
+      ]
+    },
+    {
+      "id": "d13",
+      "question": "Who\u2019s at risk for colorectal cancer?",
+      "gold_questions": [
+        "Who is at risk for Colorectal Cancer? ?"
+      ]
+    },
+    {
+      "id": "d14",
+      "question": "What are the stages of adult acute myeloid leukemia?",
+      "gold_questions": [
+        "What are the stages of Adult Acute Myeloid Leukemia ?"
+      ]
+    },
+    {
+      "id": "d15",
+      "question": "What treatments are used for non\u2011small cell lung cancer?",
+      "gold_questions": [
+        "What are the treatments for Non-Small Cell Lung Cancer ?"
+      ]
+    },
+    {
+      "id": "d16",
+      "question": "What are the stages of chronic myelogenous leukemia?",
+      "gold_questions": [
+        "What are the stages of Chronic Myelogenous Leukemia ?"
+      ]
+    },
+    {
+      "id": "d17",
+      "question": "Who\u2019s at risk for hypopharyngeal (throat) cancer?",
+      "gold_questions": [
+        "Who is at risk for Hypopharyngeal Cancer? ?"
+      ]
+    },
+    {
+      "id": "d18",
+      "question": "How do doctors diagnose urethral cancer?",
+      "gold_questions": [
+        "How to diagnose Urethral Cancer ?"
+      ]
+    },
+    {
+      "id": "d19",
+      "question": "What are the stages of uterine sarcoma?",
+      "gold_questions": [
+        "What are the stages of Uterine Sarcoma ?"
+      ]
+    },
+    {
+      "id": "d20",
+      "question": "What treatments are used for Ewing sarcoma?",
+      "gold_questions": [
+        "What are the treatments for Ewing Sarcoma ?"
+      ]
+    },
+    {
+      "id": "d21",
+      "question": "How can I prevent anal cancer?",
+      "gold_questions": [
+        "How to prevent Anal Cancer ?"
+      ]
+    },
+    {
+      "id": "d22",
+      "question": "Who\u2019s at risk for adult acute lymphoblastic leukemia?",
+      "gold_questions": [
+        "Who is at risk for Adult Acute Lymphoblastic Leukemia? ?"
+      ]
+    },
+    {
+      "id": "d23",
+      "question": "How do doctors diagnose parathyroid cancer?",
+      "gold_questions": [
+        "How to diagnose Parathyroid Cancer ?"
+      ]
+    },
+    {
+      "id": "d24",
+      "question": "What treatments are used for chronic neutrophilic leukemia?",
+      "gold_questions": [
+        "What are the treatments for Chronic Neutrophilic Leukemia ?"
+      ]
+    },
+    {
+      "id": "d25",
+      "question": "How do doctors diagnose low\u2011grade ovarian tumors?",
+      "gold_questions": [
+        "How to diagnose Ovarian Low Malignant Potential Tumors ?"
+      ]
+    },
+    {
+      "id": "d26",
+      "question": "What symptoms might a person with atypical chronic myelogenous leukemia have?",
+      "gold_questions": [
+        "What are the symptoms of Atypical Chronic Myelogenous Leukemia ?"
+      ]
+    },
+    {
+      "id": "d27",
+      "question": "What is chronic myelomonocytic leukemia?",
+      "gold_questions": [
+        "What is (are) Chronic Myelomonocytic Leukemia ?"
+      ]
+    },
+    {
+      "id": "d28",
+      "question": "Who\u2019s at risk for extragonadal germ cell tumors?",
+      "gold_questions": [
+        "Who is at risk for Extragonadal Germ Cell Tumors? ?"
+      ]
+    },
+    {
+      "id": "d29",
+      "question": "What symptoms does a child with craniopharyngioma show?",
+      "gold_questions": [
+        "What are the symptoms of Childhood Craniopharyngioma ?"
+      ]
+    },
+    {
+      "id": "d30",
+      "question": "What are the stages of rectal cancer?",
+      "gold_questions": [
+        "What are the stages of Rectal Cancer ?"
+      ]
+    },
+    {
+      "id": "d31",
+      "question": "What are myelodysplastic syndromes?",
+      "gold_questions": [
+        "What is (are) Myelodysplastic Syndromes ?"
+      ]
+    },
+    {
+      "id": "d32",
+      "question": "What symptoms should I watch for if I have prostate cancer?",
+      "gold_questions": [
+        "What are the symptoms of Prostate Cancer ?"
+      ]
+    },
+    {
+      "id": "d33",
+      "question": "What are the stages of metastatic squamous cell neck cancer when the primary tumor is hidden?",
+      "gold_questions": [
+        "What are the stages of Metastatic Squamous Neck Cancer with Occult Primary ?"
+      ]
+    },
+    {
+      "id": "d34",
+      "question": "What symptoms does uterine sarcoma cause?",
+      "gold_questions": [
+        "What are the symptoms of Uterine Sarcoma ?"
+      ]
+    },
+    {
+      "id": "d35",
+      "question": "What\u2019s the outlook for lip and oral cavity cancer?",
+      "gold_questions": [
+        "What is the outlook for Lip and Oral Cavity Cancer ?"
+      ]
+    },
+    {
+      "id": "d36",
+      "question": "What are the stages of gestational trophoblastic disease?",
+      "gold_questions": [
+        "What are the stages of Gestational Trophoblastic Disease ?"
+      ]
+    },
+    {
+      "id": "d37",
+      "question": "How can I lower my risk of breast cancer?",
+      "gold_questions": [
+        "How to prevent Breast Cancer ?"
+      ]
+    },
+    {
+      "id": "d38",
+      "question": "How do doctors diagnose uterine sarcoma?",
+      "gold_questions": [
+        "How to diagnose Uterine Sarcoma ?"
+      ]
+    },
+    {
+      "id": "d39",
+      "question": "What treatments are used for kids with atypical teratoid/rhabdoid tumors of the brain?",
+      "gold_questions": [
+        "What are the treatments for Childhood Central Nervous System Atypical Teratoid/Rhabdoid Tumor ?"
+      ]
+    },
+    {
+      "id": "d40",
+      "question": "What research or clinical trials are happening for penile cancer?",
+      "gold_questions": [
+        "what research (or clinical trials) is being done for Penile Cancer ?"
+      ]
+    }
+  ]
+}
