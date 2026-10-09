@@ -223,6 +223,22 @@ What the numbers say:
 
 Without these variables tracing is off and everything else works the same.
 
+## Deploy to Streamlit Community Cloud
+
+The Streamlit app (`src/app.py`, V4) deploys straight from this GitHub repo. Streamlit Cloud installs [src/requirements.txt](src/requirements.txt) (the file next to the entrypoint), a slim list with CPU-only PyTorch, not the full root `requirements.txt`.
+
+1. Sign in at <https://share.streamlit.io> with GitHub and click **Create app** → **Deploy a public app from GitHub**.
+2. Repository `kevincostner17/Health_FAQ_Rag`, branch `main`, main file path `src/app.py`.
+3. **Advanced settings** → Python version **3.12**, and paste into **Secrets**:
+   ```toml
+   GROQ_API_KEY = "your-groq-key"
+   # optional monitoring
+   LANGSMITH_TRACING = "true"
+   LANGSMITH_API_KEY = "your-langsmith-key"
+   LANGSMITH_PROJECT = "health-faq-rag"
+   ```
+4. Click **Deploy**. The first start installs packages and builds the Chroma index from `data/qa_pairs.json` (a few minutes). After that, questions answer in about 2 seconds. The index is rebuilt whenever the app wakes from sleep.
+
 ## Course Context
 
 Submitted as part of the WIL Project (Case Studies in Data Science), Milestone 1 — Test-Driven RAG solution with evaluation framework.

@@ -1,0 +1,14 @@
+# Streamlit Community Cloud installs this file (it sits next to the entrypoint src/app.py),
+# not the root requirements.txt. Only what the V4 app needs, with CPU-only PyTorch so the
+# install skips the multi-GB CUDA libraries.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.14.1
+streamlit==1.64.0
+langchain-text-splitters==1.1.2
+langchain-groq==1.1.3
+langchain-huggingface==1.2.2
+langchain-chroma==1.1.0
+chromadb==1.5.9
+sentence-transformers==6.1.0
+langsmith==0.14.4
+python-dotenv==1.2.3
